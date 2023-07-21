@@ -9,9 +9,14 @@ public class MorningRoutine {
 		myToDoList.addTask("Put on clothes");
 		myToDoList.addTask("Take lunch");
 		myToDoList.display();
-		myToDoList.removeTask(1);
+		System.out.println("******************");
+		myToDoList.markAsDone("Take lunch");
 		myToDoList.display();
-		myToDoList.rename(1, "wash face");
+		System.out.println("******************");
+		myToDoList.removeTask("Wake up");
+		myToDoList.display();
+		System.out.println("******************");
+		myToDoList.rename("Wash teeth","Wash face");
 		myToDoList.display();
 	}
 
