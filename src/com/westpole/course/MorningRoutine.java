@@ -7,6 +7,7 @@ public class MorningRoutine {
 		myToDoList.addTask("Wake up");
 		myToDoList.addTask("Wash teeth");
 		myToDoList.addTask("Put on clothes");
+		myToDoList.addTask("Take lunch");
 		myToDoList.display();
 		myToDoList.removeTask(1);
 		myToDoList.display();
